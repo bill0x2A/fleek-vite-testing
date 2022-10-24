@@ -1,8 +1,12 @@
 import React from 'react';
+import Nav from './Nav';
 
 const Test = () => {
     return (
-        <div>This is my test page, and it works!</div>
+        <>
+            <Nav />
+            <div>This is my test page, and it works!</div>
+        </>
     )
 };
 
